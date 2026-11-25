@@ -1,0 +1,7 @@
+id = "poimandres-theme"
+name = "Poimandres Theme"
+version = "1.0.0"
+schema_version = 1
+authors = ["Dallas Gere"]
+description = "Poimandres and Poimandres Storm themes for Zed (both unbordered and bordered) in a single file, with harmonized git colors and a white cursor."
+repository = "https://github.com/dallasgere/poimandres-theme"
