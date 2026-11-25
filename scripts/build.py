@@ -16,7 +16,7 @@ OUT = ROOT / "themes"
 SCHEMA = "https://zed.dev/schema/themes/v0.2.0.json"
 AUTHOR = "Dallas Gere"
 TRANSPARENT = "#00000000"
-GIT_DIM = 0.65
+GIT_DIM = 0.92
 
 
 def blend(fg, alpha, bg):
@@ -282,7 +282,7 @@ def build_style(base, bordered):
                 "unreachable": POI["comment"],
                 "predictive": POI["comment"],
             }.items()
-            for suffix, a in (("", None), (".background", "1f"), (".border", "66"))
+            for suffix, a in (("", None), (".background", "2e"), (".border", "66"))
         },
         "hint.background": elevated,
         "version_control.added": g_add,
@@ -291,8 +291,8 @@ def build_style(base, bordered):
         "version_control.renamed": g_mod,
         "version_control.conflict": g_con,
         "version_control.ignored": GIT["ignored"],
-        "version_control.word_added": g_add + "47",
-        "version_control.word_deleted": g_del + "47",
+        "version_control.word_added": g_add + "5c",
+        "version_control.word_deleted": g_del + "5c",
         "players": [
             {"cursor": "#ffffff", "background": POI["mint"], "selection": base["selection"]},
             {"cursor": POI["cyan"], "background": POI["cyan"], "selection": POI["cyan"] + "3d"},
