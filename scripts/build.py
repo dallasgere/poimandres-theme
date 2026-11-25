@@ -222,7 +222,7 @@ def build_style(base, bordered):
         "search.match_background": "#5de4c726",
         "search.active_match_background": "#5de4c74d",
         "panel.background": shell_bg,
-        "panel.focused_border": border if bordered else TRANSPARENT,
+        "panel.focused_border": TRANSPARENT,
         "panel.indent_guide": base["indent"],
         "panel.indent_guide_active": base["indent_active"],
         "panel.indent_guide_hover": base["indent_active"],
