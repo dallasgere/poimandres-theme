@@ -172,7 +172,7 @@ def build_style(base, bordered):
         "background": shell_bg,
         "border": border,
         "border.variant": border_variant,
-        "border.focused": border if bordered else TRANSPARENT,
+        "border.focused": TRANSPARENT,
         "border.selected": TRANSPARENT,
         "border.transparent": TRANSPARENT,
         "border.disabled": border,
